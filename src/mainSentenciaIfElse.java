@@ -28,8 +28,8 @@ public class mainSentenciaIfElse {
                 JOptionPane.showMessageDialog(null, "correcto, ahora X es igual 0");
                 x = 0;
                 adivina = false;
-            } else if (x <= 14 || x >= 21) {
-                 JOptionPane.showMessageDialog(null," tan baboso, dije numero entre 15 y 20 buey, no " + x);
+            } else if (x <= 14 || x >= 25) {
+                 JOptionPane.showMessageDialog(null," tan menso, dije numero entre 15 y 20, no " + x + "!!!!");
 
             } else {
                 JOptionPane.showMessageDialog(null, "incorrecto dame otro numero que no sea " + x);
